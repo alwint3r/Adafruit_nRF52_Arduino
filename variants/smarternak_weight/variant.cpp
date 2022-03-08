@@ -40,7 +40,7 @@ const uint32_t g_ADigitalPinMap[] =
 void initVariant()
 {
   pinMode(PIN_LED1, OUTPUT);
-  ledOn(PIN_LED1);
+  ledOff(PIN_LED1);
 
   pinMode(PIN_LED2, OUTPUT);
   ledOff(PIN_LED2);
